@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .main-div{
+     width: 100%;
+     height:640px;
+     background-color:black;
+ }
+ .inner-div{
+     width: 90%;
+     height:300px;
+     background-color:white;
+     margin-left: 70px;
+     background-color:rgb(250, 232, 232);
+
+     
+ }
+ .nav-bar{
+     width: 100%;
+     height:90px;
+     display: flex;
+     
+ }
+ .part-1{
+     width: 30%;
+     list-style: none;
+     padding-left: 50px;
+     display: flex;
+     align-items: center;
+     color: rgb(22, 21, 21);
+     font-size: 12px;
+ }
+ .btn{
+    width: 90px;
+    height: 42px;
+    background-color: #005f69;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+ }
+ .part-2{
+     color: rgb(143, 140, 140);
+     width: 65%;
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 100px;
+     justify-content: space-evenly;
+ }
+
+
+
+/* ======middle part of UI (future livivng)==== */
+.futuredesign{
+    width: 100%;
+    display: flex;
+    background-color:rgb(250, 232, 232);
+}
+.futureliving{
+    width: 50%;
+    height:400px ;
+    padding-left: 120px;
+    padding-top: 50px;
+    padding-top: 50px;
+}
+.futureliving h2{
+   font-size:48px;
+   padding-top:40px;
+   
+}
+.futureliving p{
+    font-size:19px;
+    padding-top:8px;
+    color: rgb(143, 140, 140);
+
+}
+.building-part{
+    width: 50%;
+    
+    /* background-image: url('image-removebg-preview.png');
+    background-position: center;
+    background-size: cover;  */
+}
+.building-part img{
+    width:70%;
+    height: 400px;
+}
+.learn1{
+    width:25%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #005f69;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.learn{
+    background-color:rgb(250, 232, 232);
+    width:25%;
+    height: 40px;
+    margin-top: 20px;
+    color:gray;
+    border-style: none;
+    border-radius: 5px;
+}
+
+/* ====featured section==== */
+
+.feature{
+    width: 100%;
+    height:150px;
+    background-color:white;
+    background-color:rgb(250, 232, 232);
+
+    
+}
+.feature h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.box{
+    display: flex;
+    margin-left:100px;
+    margin-top: 20px;
+}
+.box-a{
+    width: 180px;
+    height: 95px;
+
+}
+.box-a img{
+    width: 160px;
+    height: 70px;
+}
+    
+.box-b{
+    width: 180px;
+    height: 95px;
+    margin-left: 30px;
+
+}
+.box-b img{
+    width: 130px;
+    height: 80px;
+}
+.box-c{
+    width: 180px;
+    height: 95px;
+    margin-left: 30px;
+
+}
+.box-c img{
+    width: 130px;
+    height: 80px;
+}
+.box-d{
+    width: 180px;
+    height: 95px;
+    margin-left: 30px;
+
+}
+.box-d img{
+    width: 130px;
+    height: 70px;
+}
+.box-e{
+    width: 180px;
+    height: 95px;
+    margin-left: 30px;
+
+}
+.box-e img{
+    width: 160px;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+ /* =====code for responsiveness======= */
+ @media (max-width: 768px) {
+    .main-div {
+        
+        width: 100%;
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inner-div {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .btn{
+        width:40%;
+        margin-left:40px;
+    }
+   .part-2 li{
+    display: none;
+   }
+
+   /* ======middle part of UI (future livivng)===== */
+   .futureliving{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+   }
+   .futureliving p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+   .building-part{
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+   }
+   
+   .learn1{
+    width: 40%;
+    margin-bottom: 25px;
+    margin-top:20px;
+    
+   }
+   .learn{
+     width: 40%;
+   }
+   .building-part img{
+    /* width:70%;
+    height: 400px;
+    flex-direction: column; */
+    display: none;
+   }
+   .box{
+    width:100%;
+  }
+  .box-b{
+    display: none;
+  }.box-c{
+    display: none;
+  }.box-d{
+    display: none;
+  }.box-e{
+    display: none;
+  }
+
+
+
+
+
+
+
+}
+
+
+    
+    
+   
+
+
+
+
+
